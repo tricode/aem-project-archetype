@@ -138,42 +138,42 @@
                 </fileSet>
             </fileSets>
         </module>
-        <module id="${rootArtifactId}.it.tests" dir="it.tests" name="it.tests">
-            <fileSets>
-                <fileSet filtered="true" packaged="true"
-                    encoding="UTF-8">
-                    <directory>src/main/java</directory>
-                    <includes>
-                        <include>**/*.java</include>
-                    </includes>
-                </fileSet>
-                <fileSet filtered="true" packaged="true"
-                    encoding="UTF-8">
-                    <directory>src/test/java</directory>
-                    <includes>
-                        <include>**/*.java</include>
-                    </includes>
-                </fileSet>
-            </fileSets>
-        </module>
-        <module id="${rootArtifactId}.it.launcher" dir="it.launcher" name="it.launcher">
-            <fileSets>
-                <fileSet filtered="true" packaged="true"
-                    encoding="UTF-8">
-                    <directory>src/main/java</directory>
-                    <includes>
-                        <include>**/*.java</include>
-                    </includes>
-                </fileSet>
-                <fileSet filtered="true" packaged="true"
-                    encoding="UTF-8">
-                    <directory>src/test/java</directory>
-                    <includes>
-                        <include>**/*.java</include>
-                    </includes>
-                </fileSet>
-            </fileSets>
-        </module>
+        <!--<module id="${rootArtifactId}.it.tests" dir="it.tests" name="it.tests">-->
+            <!--<fileSets>-->
+                <!--<fileSet filtered="true" packaged="true"-->
+                    <!--encoding="UTF-8">-->
+                    <!--<directory>src/main/java</directory>-->
+                    <!--<includes>-->
+                        <!--<include>**/*.java</include>-->
+                    <!--</includes>-->
+                <!--</fileSet>-->
+                <!--<fileSet filtered="true" packaged="true"-->
+                    <!--encoding="UTF-8">-->
+                    <!--<directory>src/test/java</directory>-->
+                    <!--<includes>-->
+                        <!--<include>**/*.java</include>-->
+                    <!--</includes>-->
+                <!--</fileSet>-->
+            <!--</fileSets>-->
+        <!--</module>-->
+        <!--<module id="${rootArtifactId}.it.launcher" dir="it.launcher" name="it.launcher">-->
+            <!--<fileSets>-->
+                <!--<fileSet filtered="true" packaged="true"-->
+                    <!--encoding="UTF-8">-->
+                    <!--<directory>src/main/java</directory>-->
+                    <!--<includes>-->
+                        <!--<include>**/*.java</include>-->
+                    <!--</includes>-->
+                <!--</fileSet>-->
+                <!--<fileSet filtered="true" packaged="true"-->
+                    <!--encoding="UTF-8">-->
+                    <!--<directory>src/test/java</directory>-->
+                    <!--<includes>-->
+                        <!--<include>**/*.java</include>-->
+                    <!--</includes>-->
+                <!--</fileSet>-->
+            <!--</fileSets>-->
+        <!--</module>-->
     </modules>
 
   <fileSets>
