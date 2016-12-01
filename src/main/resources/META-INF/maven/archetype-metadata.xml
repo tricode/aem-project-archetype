@@ -37,6 +37,8 @@
         <requiredProperty key="cssId" />
         <requiredProperty key="componentGroupName" />
         <requiredProperty key="siteName"/>
+        <requiredProperty key="gitUrl"/>
+
     </requiredProperties>
 
     <modules>

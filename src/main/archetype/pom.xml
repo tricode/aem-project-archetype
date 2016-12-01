@@ -28,9 +28,9 @@
     </properties>
 
     <scm>
-        <connection>https://code.tricode.nl/aem/eriks.git</connection>
-        <developerConnection>https://code.tricode.nl/aem/eriks.git</developerConnection>
-        <url>https://code.tricode.nl/aem/eriks</url>
+        <connection>scm:git:${gitUrl}</connection>
+        <developerConnection>scm:git:${gitUrl}</developerConnection>
+        <url>${gitUrl}</url>
     </scm>
 
     <distributionManagement>
@@ -66,6 +66,14 @@
                 <artifactId>maven-source-plugin</artifactId>
                 <version>2.4</version>
                 <inherited>true</inherited>
+            </plugin>
+            <!-- Maven Resources Plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                </configuration>
             </plugin>
             <!-- Maven Jar Plugin -->
             <plugin>
