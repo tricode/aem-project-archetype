@@ -17,8 +17,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.adobe.granite.archetypes</groupId>
-  <artifactId>aem-project-archetype</artifactId>
+  <groupId>nl.tricode.aem.archetypes</groupId>
+  <artifactId>tricode-aem-project-archetype</artifactId>
   <version>11-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
@@ -26,9 +26,9 @@
   <description>AEM multi-module archetype.</description>
 
   <scm>
-      <connection>scm:git:https://github.com/Adobe-Marketing-Cloud/aem-project-archetype.git</connection>
-      <developerConnection>scm:git:https://github.com/Adobe-Marketing-Cloud/aem-project-archetype.git</developerConnection>
-      <url>https://github.com/Adobe-Marketing-Cloud/aem-project-archetype/tree/master/</url>
+      <connection>scm:git:https://github.com/tricode/aem-project-archetype.git</connection>
+      <developerConnection>scm:git:https://github.com/tricode/aem-project-archetype.git</developerConnection>
+      <url>https://github.com/tricode/aem-project-archetype.git/tree/master/</url>
       <tag>HEAD</tag>
   </scm>
 
@@ -64,29 +64,6 @@
           </execution>
         </executions>
       </plugin>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-checkstyle-plugin</artifactId>
-            <version>2.15</version>
-            <configuration>
-                <includes>**\/*.java,**\/*.xml</includes>
-                <sourceDirectory>src/main/archetype</sourceDirectory>
-                <configLocation>src/main/resources/checkstyle.xml</configLocation>
-                <encoding>UTF-8</encoding>
-                <consoleOutput>true</consoleOutput>
-                <failsOnError>true</failsOnError>
-                <linkXRef>false</linkXRef>
-            </configuration>
-            <executions>
-                <execution>
-                    <id>checkstyle</id>
-                    <phase>verify</phase>
-                    <goals>
-                        <goal>check</goal>
-                    </goals>
-                </execution>
-            </executions>
-        </plugin>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-release-plugin</artifactId>
