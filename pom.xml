@@ -22,8 +22,8 @@
   <version>11-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
-  <name>AEM Multi-Module Archetype</name>
-  <description>AEM multi-module archetype.</description>
+  <name>Tricode AEM Multi-Module Archetype</name>
+  <description>Tricode AEM multi-module archetype.</description>
 
   <scm>
       <connection>scm:git:https://github.com/tricode/aem-project-archetype.git</connection>
@@ -83,14 +83,14 @@
 
   <distributionManagement>
     <repository>
-      <id>${releaseRepository-Id}</id>
-      <name>${releaseRepository-Name}</name>
-      <url>${releaseRepository-URL}</url>
+      <id>internal-releases</id>
+      <name>Tricode Internal Releases (not project specific artifacts ONLY)</name>
+      <url>http://artifacts.proxy.tricode.nl/content/repositories/internal-releases/</url>
     </repository>
     <snapshotRepository>
-      <id>${snapshotRepository-Id}</id>
-      <name>${snapshotRepository-Name}</name>
-      <url>${snapshotRepository-URL}</url>
+      <id>internal-snapshots</id>
+      <name>Tricode Internal Snapshots (not project specific artifacts ONLY)</name>
+      <url>http://artifacts.proxy.tricode.nl/content/repositories/internal-snapshots/</url>
       <uniqueVersion>false</uniqueVersion>
     </snapshotRepository>
   </distributionManagement>
