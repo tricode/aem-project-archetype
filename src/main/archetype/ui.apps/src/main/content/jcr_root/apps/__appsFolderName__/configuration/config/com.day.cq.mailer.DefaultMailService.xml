@@ -3,7 +3,7 @@
           jcr:primaryType="sling:OsgiConfig"
           smtp.host="${smtpHost}"
           smtp.port="${smtpPort}"
-          from.address="noreply@kb.tricode.nl"
+          from.address="noreply@tricode.nl"
           smtp.ssl="{Boolean}false"
           debug.email="{Boolean}false"
         />
