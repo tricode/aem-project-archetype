@@ -35,14 +35,14 @@
 
     <distributionManagement>
         <repository>
-            <id>tricode-eriks-releases</id>
-            <name>Eriks releases</name>
-            <url>http://artifacts.proxy.tricode.nl/content/repositories/eriks-releases/</url>
+            <id>${nexusRepoId}-releases</id>
+            <name>${artifactName} releases</name>
+            <url>${nexusRepoUrl}-releases/</url>
         </repository>
         <snapshotRepository>
-            <id>tricode-eriks-snapshots</id>
-            <name>Eriks snapshots</name>
-            <url>http://artifacts.proxy.tricode.nl/content/repositories/eriks-snapshots/</url>
+            <id>${nexusRepoId}-snapshots</id>
+            <name>${artifactName} snapshots</name>
+            <url>${nexusRepoUrl}-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 

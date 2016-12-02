@@ -38,6 +38,8 @@
         <requiredProperty key="componentGroupName" />
         <requiredProperty key="siteName"/>
         <requiredProperty key="gitUrl"/>
+        <requiredProperty key="nexusRepoId"/>
+        <requiredProperty key="nexusRepoUrl"/>
 
     </requiredProperties>
 
