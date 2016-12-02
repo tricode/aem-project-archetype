@@ -19,7 +19,7 @@
 
   <groupId>nl.tricode.aem.archetypes</groupId>
   <artifactId>tricode-aem-project-archetype</artifactId>
-  <version>2</version>
+  <version>3-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
   <name>Tricode AEM Multi-Module Archetype</name>
