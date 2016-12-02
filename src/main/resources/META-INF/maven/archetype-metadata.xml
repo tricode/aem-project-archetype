@@ -40,6 +40,8 @@
         <requiredProperty key="gitUrl"/>
         <requiredProperty key="nexusRepoId"/>
         <requiredProperty key="nexusRepoUrl"/>
+        <requiredProperty key="smtpHost"/>
+        <requiredProperty key="smtpPort"/>
 
     </requiredProperties>
 
