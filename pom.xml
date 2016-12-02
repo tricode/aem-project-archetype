@@ -19,7 +19,7 @@
 
   <groupId>nl.tricode.aem.archetypes</groupId>
   <artifactId>tricode-aem-project-archetype</artifactId>
-  <version>11-SNAPSHOT</version>
+  <version>1</version>
   <packaging>maven-archetype</packaging>
 
   <name>Tricode AEM Multi-Module Archetype</name>
@@ -29,7 +29,7 @@
       <connection>scm:git:https://github.com/tricode/aem-project-archetype.git</connection>
       <developerConnection>scm:git:https://github.com/tricode/aem-project-archetype.git</developerConnection>
       <url>https://github.com/tricode/aem-project-archetype.git/tree/master/</url>
-      <tag>HEAD</tag>
+      <tag>version_1</tag>
   </scm>
 
   <build>
